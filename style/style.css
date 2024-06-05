@@ -112,7 +112,7 @@ main {
 
 .snippets {
     width: 100vw;
-    max-width: 100%;
+    max-width: 940px;
     margin: 150px auto;
 }
 
@@ -140,5 +140,37 @@ main {
 
 .snippets-examples {
     display: flex;
+    gap: 50px;
+    align-items: center;
+    direction: rtl;
+}
 
+.snippets-examples img {
+    min-width: 760px;
+    order: 1;
+}
+
+.snippets-examples .qualitys {
+    min-width: 350px;
+    direction: ltr;
+}
+
+.snippets-examples .qualitys li {
+    line-height: 30px;
+}
+
+.snippets-examples .qualitys li:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.snippets-examples .qualitys li h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--dark-grayish-blue);
+}
+
+.snippets-examples .qualitys li p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--grayish-blue);
 }
