@@ -75,6 +75,8 @@ main {
     margin-bottom: 50px;
 }
 
+/* geral styles */
+
 .download-buttons button {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 600;
@@ -108,34 +110,34 @@ main {
     background-color: hsl(233, 80%, 71%);;
 }
 
-/* snippets */
-
-.snippets {
-    width: 100vw;
-    max-width: 940px;
-    margin: 150px auto;
-}
-
-.snippets-intro {
+.container {
     width: 760px;
     margin: 0 auto;
     text-align: center;
-} 
+}
 
-.snippets-intro h2 {
+.title {
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--dark-grayish-blue);
     margin: 50px 0 20px 0;
 }
 
-.snippets-intro p {
+.description {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 30px;
     color: var(--grayish-blue);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+}
+
+/* snippets */
+
+.snippets {
+    width: 100vw;
+    max-width: 940px;
+    margin: 150px auto;
 }
 
 .snippets-examples {
@@ -160,7 +162,7 @@ main {
 }
 
 .snippets-examples .qualitys li:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .snippets-examples .qualitys li h3 {
@@ -174,3 +176,17 @@ main {
     font-size: 1rem;
     color: var(--grayish-blue);
 }
+
+/* access anywhere */
+
+.access-anywhere {
+    display: flex;
+    flex-direction: column;
+}
+
+.access-anywhere img {
+    min-width: 960px;
+    align-self: center;
+}
+
+
